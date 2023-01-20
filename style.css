@@ -1,0 +1,77 @@
+/* SECTION element selectors */
+header {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* SECTION class selectors */
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.bg-storm {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60);
+}
+
+.player-card {
+   background-color: white;
+}
+
+.lane-card {
+    background-color: black;
+}
+
+.border-left {
+    border: none;
+    border-left: 2px solid #c4480f;
+    border-width: .3em;
+}
+
+.bg-orange-color {
+    background-color: #c4480f;
+}
+
+.non-important-p-text {
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.agressive-shadow{
+    box-shadow: 5px 5px 10px rgb(230, 197, 197);
+  }
+
+.translate-distance {
+    translate: 0px 60px;
+}
+
+.form-shadow {
+    box-shadow: 5px 5px 10px black;
+}
+
+.size {
+    height: 60vh;
+    width: 20vw;
+}
+
+.before-footer {
+    background-color: #686b69;
+}
+
+@media screen and (max-width: 768px) {
+    .size {
+       width: fit-content;
+       height: 240px; 
+       padding-left: 2.5em;
+       padding-bottom: 2em;
+    }
+
+    .translate-distance {
+        translate: 0px 0px;
+    }
+}
+
