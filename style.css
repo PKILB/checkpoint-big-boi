@@ -6,6 +6,8 @@ header {
 
 
 
+
+
 /* SECTION class selectors */
 
 .logo {
@@ -59,23 +61,34 @@ header {
 }
 
 .before-footer {
-    background-color: #686b69;
+    background-color: #000000;
 }
 
 .before-footer-card {
     background-color: #f5f8f6;
     justify-content: space-between;
+    box-shadow: 5px 5px 10px rgb(48, 47, 47);
 }
 .padding-mobile{
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
+
+.footer-1 {
+        background-color: #c4480f;
+}
+
+.footer-2 {
+    background-color: #000000;
+}
+
 
 @media screen and (max-width: 768px) {
     .size {
        width: fit-content;
        height: 240px; 
-       padding-left: 2.5em;
+       align-items: center;
        padding-bottom: 2em;
+       justify-content: center;
     }
 
     .translate-distance {
@@ -83,7 +96,8 @@ header {
     }
 
     .padding-mobile{
-        padding-bottom: 1em;
+        text-align: center;
+        padding-top: 2em;
     }
 }
 
