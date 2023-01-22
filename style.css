@@ -95,9 +95,19 @@ header {
         translate: 0px 0px;
     }
 
-    .padding-mobile{
+    .padding-mobile { 
         text-align: center;
         padding-top: 2em;
+    }
+
+    .before-footer-card {
+       margin-top: 2em;
+    }
+
+    .footer-2 {
+       padding-left: 3.8em;
+       padding-right: 3.8em;
+       padding-bottom: 2em;
     }
 }
 
