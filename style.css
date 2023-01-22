@@ -36,12 +36,12 @@ header {
 
 .border-left {
     border: none;
-    border-left: 2px solid #c4480f;
+    border-left: 2px solid #666361;
     border-width: .3em;
 }
 
 .bg-orange-color {
-    background-color: #c4480f;
+    background-color: #c76030;
 }
 
 .non-important-p-text {
@@ -83,7 +83,7 @@ header {
 }
 
 .footer-1 {
-        background-color: #c4480f;
+        background-color: #c76030;
 }
 
 .footer-2 {
