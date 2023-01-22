@@ -1,4 +1,9 @@
 /* SECTION element selectors */
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
 header {
     background-color: black;
     color: white;
